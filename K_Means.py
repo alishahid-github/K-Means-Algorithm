@@ -1,10 +1,10 @@
 import numpy as np 
 import pandas as pd 
 import matplotlib.pyplot as plt 
-from sklearn.preprocessing import LabelEncoder as LE
+from sklearn.preprocessing import LabelEncoder as LE  #for preprocessing and normalization of dataset
 
 
-def numpy_distance(x,y):
+def numpy_distance(x,y):                #function use to calculate the distance between two points
     return np.linalg.norm(x-y)
 
 class K_Means_Clustering:
